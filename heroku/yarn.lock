@@ -303,10 +303,10 @@
     lodash "^4.17.11"
     lodash.flatten "^4.4.0"
 
-"@heroku-cli/plugin-pg-v5@^7.43.3":
-  version "7.43.3"
-  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-pg-v5/-/plugin-pg-v5-7.43.3.tgz#25c6594445d4c6487c4f3696c99b53bffd12f91b"
-  integrity sha512-EuO38Lo1o93ai9vPA4h5Ih4whnag8j16XGvow6mwfdc46Uaiv5q7hbiA0dhLMaAkE73WAvSYhLtjs1v/qAlAYQ==
+"@heroku-cli/plugin-pg-v5@^7.47.3":
+  version "7.47.3"
+  resolved "https://registry.yarnpkg.com/@heroku-cli/plugin-pg-v5/-/plugin-pg-v5-7.47.3.tgz#7412a698baf27ffecd9532aef219c27421a7245d"
+  integrity sha512-QXxvGJJNLY7Nl50ciPzX63M3CeJTrH/OAgpD6H/twzPEaZ7NcsiqQdbZeDw3vsLfqL/Ld1e3/HK0tRzXP29u9Q==
   dependencies:
     "@heroku-cli/plugin-addons" "^1.2.29"
     bytes "^3.1.0"
@@ -321,6 +321,7 @@
     smooth-progress "^1.1.0"
     strip-eof "^1.0.0"
     tunnel-ssh "^4.1.4"
+    uuid "^8.3.1"
 
 "@heroku-cli/plugin-pipelines@^7.47.2":
   version "7.47.2"
@@ -5365,6 +5366,11 @@ uuid@^8.3.0:
   version "8.3.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.0.tgz#ab738085ca22dc9a8c92725e459b1d507df5d6ea"
   integrity sha512-fX6Z5o4m6XsXBdli9g7DtWgAx+osMsRRZFKma1mIUsLCz6vRvv+pz5VNbyu9UEDzpMWulZfvpgb/cmDXVulYFQ==
+
+uuid@^8.3.1:
+  version "8.3.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.1.tgz#2ba2e6ca000da60fce5a196954ab241131e05a31"
+  integrity sha512-FOmRr+FmWEIG8uhZv6C2bTgEVXsHk08kE7mPlrBbEe+c3r9pjceVPgupIfNIhc4yx55H69OXANrUaSuu9eInKg==
 
 v8-compile-cache@^2.0.3:
   version "2.1.0"
